@@ -1,0 +1,12 @@
+:root {
+    --mainPink: #ef7998;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --mainGrey: rgb(238, 238, 238);
+}
+
+body {
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+}

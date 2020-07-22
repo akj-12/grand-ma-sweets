@@ -1,0 +1,11 @@
+{
+    "[git-commit]": {
+
+
+        "editor.rulers": [
+            72
+        ]
+    },
+    "search.useIgnoreFiles": false,
+    "git.ignoreLimitWarning": true,
+}
