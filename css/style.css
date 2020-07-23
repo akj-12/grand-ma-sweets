@@ -85,3 +85,40 @@ body {
 .banner-link {
     font-size: 1.2rem;
 }
+
+/* about us */
+.aboutus {
+    background: var(--mainWhite);
+}
+
+.us-title {
+    color: var(--mainPink);
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.about-title {
+    font-weight: 200;
+}
+
+.about__img_container {
+    position: relative;
+    z-index: 0;
+}
+
+.about__img_container::before {
+    content: '';
+    position: absolute;
+    top: -1.2rem;
+    left: -1.2rem;
+    width: 100%;
+    height: 100%;
+    outline: 0.3rem solid var(--mainYellow);
+    transition: all 1s linear;
+    z-index: -1;
+}
+
+.about__img_container:hover:before {
+    top: 0;
+    left: 0;
+}
