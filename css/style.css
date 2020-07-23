@@ -10,3 +10,55 @@ body {
     background: var(--mainWhite);
     color: var(--mainBlack);
 }
+
+/* navbar */
+.navbar-toggler {
+    outline: none !important;
+}
+
+.toggler-icon {
+    font-size: 2rem;
+    color: var(--mainPink);
+}
+
+
+.nav-link {
+    color: var(--mainPink);
+    transition: all 1s ease-in-out;
+}
+
+#navbarText ul li a {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#navbarText ul li a:hover {
+    color: var(--mainBlack);
+}
+
+.cart__info__icon {
+    color: var(--mainBlack);
+}
+
+.cart-info {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: 3px solid var(--mainBlack);
+    padding: 0.4rem;
+}
+
+.cart-info:hover {
+    background: var(--mainPink);
+    color: var(--mainWhite);
+    border: 3px solid var(--mainWhite);
+
+}
+
+.cart-info:hover .cart__info__icon {
+    color: var(--mainWhite);
+}
+
+.phone_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
